@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+    ul{
+      font-family: "Arial", monospace;
+      display: flex;
+      gap: 30px;
+      margin: auto;
+    }
+
+    ul li {
+      list-style: none;
+
+    }
+
+    ul li a {
+      font-size: 15px;
+      font-weight: 500;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      padding: 10px;
+      transition: 0.5s ease;
+    }
+
+    ul:hover li a{
+      color: #09507E;
+    }
+
+    ul:hover li a:not(:hover){
+      color: gray;
+      opacity: 0.3;
+      filter: blur(1px);
+    }
+
+    nav{
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    }
+
+
+    .card-img{
+      opacity: 15%;
+    }
+
+    .card-title{
+      color: #09507E;
+      text-shadow: 1px 1px lightgray;
+      margin-top: 5px;
+      font-size: 30px;
+      display: flex;
+    }
+  
+    .h2{
+      width: 15%;
+  margin: start;
+  margin-top: 5px;
+  box-shadow: lightgray;
+    }
+
+  </style>
+  <body>
+    <br><br><br><br>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: white;" id="nav">
+      <div class="container-fluid">
+        <img src="img/fti.jpg" alt="" id="img_navbar" >
+        <button class="navbar-toggler" style="color: black;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           <li><a href="">HOME</a></li>
+           <li><a href="">COMPANY PROFFILE</a></li>
+           <li><a href="">BUSINESS</a></li>
+           <li><a href="">ABOUT US</a></li>
+           <li><a href="">CAREER</a></li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+      
+    <div class="card bg-light text-black">
+      <img src="img/machining-4.jpg" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">CORE BUSINESS</h5>
+        
+        <hr class="h2">
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text">Last updated 3 mins ago</p>
+      </div>
+    </div>
+  
+  <!-- Footer -->
+  <footer class="text-center  text-muted">
+    <!-- Section: Links  -->
+      <div class="bg-image" id="bg-image" >
+        <section class="" style="padding-bottom: 10%;">
+          <div class="container text-center text-md-start mt-5 justify-content-center">
+            <!-- Grid row -->
+            <div class="row justify-content-center">
+              
+              <!-- Grid column -->
+              <div class="col-sm-3">
+                <!-- Links -->
+                <h6 class="text-uppercase  mb-4" style="color: #09507E; font-size: larger;">COMPANY PROFILES</h6>
+                <p style="color: black;"><img src="img/kanan.png" style="width: 20px; height: 20px;">Company In Brief</p>
+                <p style="color: black;"><img src="img/kanan.png" style="width: 20px; height: 20px;">Stakeholders & Global Network</p>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-sm-3">
+                <!-- Links -->
+                  <h6 class="text-uppercase mb-4" style="color: #09507E; font-size: larger;">CONTACT US</h6>
+                  <p><b class="text fw-bold" style="color: #09507E;">Phone :</b> 081234124354</p>
+                  <p><b class="text fw-bold" style="color: #09507E;">Email :</b> <a href="https//www.gmail.com">fujitechnica@gmail.com</a></p>
+                <div class="container justify-content-center">
+                  <a href="https//www.instagram.com"><i class="bi bi-instagram"></i></a>
+                  <a href="https//www.linkedin.com"><i class="bi bi-linkedin"></i></a>
+                  <a href="https//www.facebok.com"><i class="bi bi-facebook"></i></a>
+                  <a href="htps//www.whatsapp.com"><i class="bi bi-whatsapp"></i></a>
+                </div>
+              </div>
+              <!-- Grid column -->
+  
+              <!-- maps -->
+              <div class="col-sm-3">
+                <!--Google map-->
+                <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 200px">
+                  <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+                </div>
+              </div>
+              <!-- maps -->
+              
+            </div>
+            <!-- Grid row -->
+            <div class="row justify-content-start" style="padding-left: 165px;">
+              <div class="col-sm-3">
+                <!-- Links -->
+                <h6 class="text-uppercase  mb-4" style="color: #09507E; font-size: larger;">OUR BUSINESS</h6>
+                <p style="color: black;"><img src="img/kanan.png" style="width: 20px; height: 20px;">Business Flow</p>
+                <p style="color: black;"><img src="img/kanan.png" style="width: 20px; height: 20px;">Our Products</p>
+                <p style="color: black;"><img src="img/kanan.png" style="width: 20px; height: 20px;">Facilities &  Equipments</p>
+                <p style="color: black;"><img src="img/kanan.png" style="width: 20px; height: 20px;">Quality System</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    
+      <!-- Section: Links  -->
+  
+      <!-- Copyright -->
+      
+      <div class="container">
+        <p class="text-center" style="color: black;">Copyright<img src="img/logo.png" style="height: auto; width: 2%; color: black;">© 2023 
+        <a href="Main.html">PT.FUJI TECHNICA INDONESIA</a></p>
+      </div>
+        <!-- Copyright -->
+    </footer>
+  
+  <!-- end of footer -->
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+     
+    </body>
+  </html>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    
+  </body>
+</html>

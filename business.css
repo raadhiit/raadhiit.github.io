@@ -1,0 +1,160 @@
+body{
+  background-color: rgb(250, 250, 250);
+}
+
+#nav{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background-color: white;
+}
+
+#img_navbar{
+    width: 15%;
+    height: auto;
+    margin: auto;
+  }
+
+ul{
+    font-family: "Arial", monospace;
+    display: flex;
+    gap: 30px;
+    margin: auto;
+  }
+  
+ul li {
+    list-style: none;
+  }
+  
+ul li a {
+    font-size: 15px;
+    font-weight: 200;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 10px;
+    transition: 0.5s ease;
+  }
+  
+  ul:hover li a{
+    color: white;
+  }
+  
+  ul:hover li a:not(:hover){
+    color: gray;
+    opacity: 0.3;
+    filter: blur(1px);
+  }
+  
+a:link, a:visited {
+      
+      color: black;
+      border: 2px;
+      padding: 5px 10px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    
+a:hover, a:active {
+      background-color: #09507E;
+      color: white;
+      border-radius: 10px;
+}
+       
+.map-container-2{
+         overflow:hidden;
+         padding-bottom:56.25%;
+         position:relative;
+         height:0;
+       }
+.map-container-2 iframe{
+         left:0;
+         top:0;
+         height:100%;
+         width:100%;
+         position:absolute;
+       }
+       
+#footer{
+         padding-top: 70px;
+}
+
+.card-img{
+    opacity: 15%;
+    width: 100%; 
+    height: 380px; 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+  }
+
+.card{
+    margin-top: 50px;
+}
+
+  .card-title{
+    color: #09507E;
+    text-shadow: 4px 4px lightgray;
+    margin-top: 5px;
+    font-size: 30px;
+    display: flex;
+  }
+
+  .card-text{
+    font-size: medium;
+    text-shadow: 1px 1px gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .h2{
+    width: 35%;
+    margin: start;
+    margin-top: 5px;
+    box-shadow: lightgray;
+    border: 1px solid;
+    margin-bottom: 20px;
+  }
+
+  .gmbr{
+    position: sticky;
+    margin-top: auto;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,1.0) ;
+    width: auto;
+    height: 250px;
+}
+
+.hr{
+  width: 19%;
+}
+
+#BF{
+  color: #09507E;
+  text-shadow: 1px 1px lightgray;
+}
+
+.logo{
+  width: auto;
+  height: 250px;
+}
+
+.busfl{
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) ;
+}
+
+.busfl:hover{
+  transform: translateY(-5px);
+}
+
+#bg-image{
+  background-image: url(img/peta.png);
+  background-repeat: no-repeat;
+  background-position: 30% 8%;
+  background-size: 50%;
+  gap: 10px;
+  text-align: center;
+}
+
+.text-uppercase{
+  text-align: center;
+}

@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(250, 250, 250);
+  }
+  
+  #nav{
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+      background-color: white;
+  }
+  
+  #img_navbar{
+      width: 15%;
+      height: auto;
+      margin: auto;
+    }
+  
+  ul{
+      font-family: "Arial", monospace;
+      display: flex;
+      gap: 30px;
+      margin: auto;
+    }
+    
+  ul li {
+      list-style: none;
+    }
+    
+  ul li a {
+      font-size: 15px;
+      font-weight: 200;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: black;
+      padding: 10px;
+      transition: 0.5s ease;
+    }
+    
+    ul:hover li a{
+      color: white;
+    }
+    
+    ul:hover li a:not(:hover){
+      color: gray;
+      opacity: 0.3;
+      filter: blur(1px);
+    }
+    
+  a:link, a:visited {
+        
+        color: black;
+        border: 2px;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+      }
+      
+  a:hover, a:active {
+        background-color: #09507E;
+        color: white;
+        border-radius: 10px;
+        
+      }
+
+.Gkiri{
+    width: auto;
+    height: 500px;
+    position: relative;
+}
+
+#AUA{
+    margin-top: 50px;
+    
+}
+
+.AA{
+    width: 100%;
+}
+
+#footer{
+  background-image: url(img/peta.png);
+  background-repeat: no-repeat;
+  background-position: 15% 2%;
+  background-size: 50%;
+  gap: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-uppercase{
+  text-align: center;
+}

@@ -1,0 +1,232 @@
+/* Main Page */
+body{
+  background-color: rgb(250, 250, 250);
+}
+
+#nav{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    background-color: white;
+}
+
+#img_navbar{
+  width: 15%;
+  height: auto;
+  margin: auto;
+  
+}
+
+ul{
+  font-family: "Arial", monospace;
+  display: flex;
+  gap: 30px;
+  margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 10px;
+  transition: 0.5s ease;
+}
+
+ul:hover li a{
+  color: white;
+}
+
+ul:hover li a:not(:hover){
+  color: gray;
+  opacity: 0.3;
+  filter: blur(1px);
+}
+
+a:link, a:visited {
+    
+    color: black;
+    border: 2px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+a:hover, a:active {
+    background-color: #09507E;
+    color: white;
+    border-radius: 10px;
+    
+  }
+
+#row1{
+  margin-top: auto;
+  gap: 0px;
+}
+
+#FTI{
+    box-shadow: 5px 10px lightgrey;
+    max-width: 100%;
+    height: auto;
+  }
+
+#tulisan {
+    padding-left: 80px;
+}
+
+#moto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+#footer{
+  background-image: url(img/peta.png);
+  background-repeat: no-repeat;
+  background-position: 15% 2%;
+  background-size: 50%;
+  gap: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-uppercase{
+  text-align: center;
+}
+
+
+
+/* Main Page */
+
+/* Compro */
+#carouselExampleControls{
+  padding-top: 5px;
+  margin: auto;
+}
+
+.hr{
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  opacity: 10%;
+  
+}
+
+#AU{
+  color: #09507E;
+  text-shadow: 1px 1px lightgray;
+}
+
+.hr2{
+  width: 10%;
+  margin:auto;
+  margin-top: 5px;
+  box-shadow: lightgray;
+    
+}
+
+.hr3{
+  width: 22%;
+  margin: auto;
+  box-shadow: 100px lightgray;
+}
+
+#bod1{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) ;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-title{
+ text-align: center;
+ background-color:#09507E;
+ color: white;
+ border-radius: 10px;
+ border: solid black;
+ margin-right: auto;
+ margin-left: auto;
+ box-shadow: 1px 3px black;
+}
+
+.card-text{
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2) ;
+  border-radius: 10px;
+  padding-top: 3px;
+  border: solid black;
+  color: black;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.VM{
+  width: 25%;
+  margin:auto;
+  box-shadow: lightgray;
+  margin-bottom: 10px;
+}
+
+.hr4{
+  width: 18%;
+  margin: auto;
+  box-shadow: 100px lightgray;
+}
+
+.hr5{
+  width: 8%;
+  margin: auto;
+  box-shadow: 100px lightgray;
+}
+
+.responsive{
+  max-width: 50%;
+  height: auto;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+  
+}
+
+.responsive:hover{
+  transform: translateY(-5px);
+}
+
+/* Compro */
+
+/* contact_us */
+#cb{
+  margin-top: 100px;
+  
+  
+}
+
+#core{
+  color: #09507E;
+  text-shadow: 1px 1px lightgray;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+
+
+
+
+/* contact_us */
+  
